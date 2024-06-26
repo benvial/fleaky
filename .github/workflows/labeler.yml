@@ -6,7 +6,6 @@ on:
       - main
       - master
 
-
 permissions:
   # Issues and related comments, assignees, labels, and milestones.
   issues: write
