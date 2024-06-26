@@ -1,0 +1,16 @@
+{
+  "_checkout": "2022.6.3",
+  "_output_dir": "/home/bench/dev/imperial/projects/evripides",
+  "_repo_dir": "/home/bench/.cookiecutters/cookiecutter-hypermodern-python",
+  "_template": "gh:cjolowicz/cookiecutter-hypermodern-python",
+  "author": "Benjamin Vial",
+  "copyright_year": "2024",
+  "development_status": "Development Status :: 3 - Alpha",
+  "email": "contact@bvial.info",
+  "friendly_name": "Fleaky",
+  "github_user": "benvial",
+  "license": "GPL-3.0",
+  "package_name": "fleaky",
+  "project_name": "fleaky",
+  "version": "0.0.0"
+}
