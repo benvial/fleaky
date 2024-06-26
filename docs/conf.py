@@ -1,4 +1,5 @@
 """Sphinx configuration."""
+
 project = "Fleaky"
 author = "Benjamin Vial"
 copyright = "2024, Benjamin Vial"
