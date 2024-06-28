@@ -17,8 +17,8 @@ class Geometry:
 
         Parameters
         ----------
-        layers : _type_
-            _description_
+        layers : iterable of Layer
+            The list of layers from center to outside
         """
         self.layers = layers
         self.thicknesses = [lay.thickness for lay in layers]
@@ -57,7 +57,7 @@ class Layer:
         self.disc = disc
         self.damping = damping
         self.is_infinite = thickness == np.inf
-        if self.is_infinite and damping == None:
+        if self.is_infinite and damping is None:
             raise ValueError("Damping must be defined for an infinite layer!")
         self.cheb = Chebyshev(disc - 1)
         self.nodes = self.get_nodes()
