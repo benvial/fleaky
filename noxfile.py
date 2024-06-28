@@ -220,7 +220,7 @@ def docs_build(session: Session) -> None:
     if build_dir.exists():
         shutil.rmtree(build_dir)
 
-    session.run("sphinx-build ", *args)
+    session.run("sphinx-build", *args)
 
 
 @session(python=python_versions[0])
