@@ -4,6 +4,7 @@ import pytest
 
 
 def test_material():
+    """Test Material class."""
     import fleaky as fl
 
     mat = fl.Material(1, 2, 3)
@@ -13,6 +14,7 @@ def test_material():
 
 
 def test_layer():
+    """Test Layer class."""
     import fleaky as fl
     import numpy as np
 
@@ -27,6 +29,7 @@ def test_layer():
 
 
 def test_geometry():
+    """Test Geometry class."""
     import fleaky as fl
 
     mat = fl.Material(1, 2, 3)
@@ -34,5 +37,4 @@ def test_geometry():
     for damping in [None, 1 - 10j]:
         lay = fl.Layer(1, 2, [mat], 10, damping)
         layers.append(lay)
-
-    geom = fl.Geometry(layers)
+    fl.Geometry(layers)
