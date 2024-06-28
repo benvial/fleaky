@@ -117,12 +117,12 @@ class Material:
     @property
     def transverse_wavespeed(self):
         """Transverse wavespeed."""
-        return (self.mu / self.ρ) ** 0.5
+        return (self.μ / self.ρ) ** 0.5
 
     @property
     def longditudinal_wavespeed(self):
         """Longditudinal wavespeed."""
-        return ((self.λ + 2 * self.mu) / self.ρ) ** 0.5
+        return ((self.λ + 2 * self.μ) / self.ρ) ** 0.5
 
     @property
     def kappa(self):
