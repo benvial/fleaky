@@ -99,7 +99,7 @@ jobs:
         if: always() && matrix.session == 'tests'
         uses: "actions/upload-artifact@v4"
         with:
-          name: coverage-data-${{ matrix.runs-on }}
+          name: coverage-data-${{ matrix.runs-on }}-${{ matrix.python }}
           path: ".coverage.*"
           overwrite: true
 
@@ -107,7 +107,7 @@ jobs:
         if: matrix.session == 'docs-build'
         uses: actions/upload-artifact@v4
         with:
-          name: docs-${{ matrix.runs-on }}
+          name: docs-${{ matrix.runs-on }}-${{ matrix.python }}
           path: docs/_build
           overwrite: true
 
