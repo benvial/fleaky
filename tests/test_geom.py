@@ -15,8 +15,9 @@ def test_material():
 
 def test_layer():
     """Test Layer class."""
-    import fleaky as fl
     import numpy as np
+
+    import fleaky as fl
 
     mat = fl.Material(1, 2, 3)
     for damping in [None, 1.1 - 10j]:
