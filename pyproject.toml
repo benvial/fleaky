@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fleaky"
-version = "0.0.0"
+version = "0.0.1"
 description = "Fleaky"
 authors = ["Benjamin Vial <contact@bvial.info>"]
 license = "GPL-3.0"
