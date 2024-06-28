@@ -17,6 +17,7 @@ Changelog = "https://github.com/benvial/fleaky/releases"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+dmsuite = "0.3.0"
 click = ">=8.0.1"
 flake8 = "^7.1.0"
 
