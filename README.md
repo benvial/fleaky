@@ -1,16 +1,16 @@
 # Fleaky
 
-[![PyPI](https://img.shields.io/pypi/v/fleaky.svg)][pypi_]
-[![Status](https://img.shields.io/pypi/status/fleaky.svg)][status]
-[![Python Version](https://img.shields.io/pypi/pyversions/fleaky)][python version]
-[![License](https://img.shields.io/pypi/l/fleaky)][license]
+[![PyPI](https://img.shields.io/pypi/v/fleaky.svg?style=for-the-badge)][pypi_]
+[![Status](https://img.shields.io/pypi/status/fleaky.svg?style=for-the-badge)][status]
+[![Python Version](https://img.shields.io/pypi/pyversions/fleaky?style=for-the-badge)][python version]
+[![License](https://img.shields.io/pypi/l/fleaky?style=for-the-badge)][license]
 
-[![Read the documentation at https://fleaky.readthedocs.io/](https://img.shields.io/readthedocs/fleaky/latest.svg?label=Read%20the%20Docs)][read the docs]
-[![Tests](https://github.com/benvial/fleaky/workflows/Tests/badge.svg)][tests]
-[![Codecov](https://codecov.io/gh/benvial/fleaky/branch/main/graph/badge.svg)][codecov]
+[![Read the documentation at https://fleaky.readthedocs.io/](https://img.shields.io/readthedocs/fleaky/latest.svg?label=Read%20the%20Docs&style=for-the-badge)][read the docs]
+[![Tests](https://img.shields.io/github/actions/workflow/status/benvial/fleaky/tests.yml?branch=main&style=for-the-badge&logo=github&label=tests)][tests]
+[![Codecov](https://img.shields.io/codecov/c/github/benvial/fleaky/main?style=for-the-badge&logo=codecov&label=codecov)][codecov]
 
-[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][pre-commit]
-[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)][black]
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white&style=for-the-badge)][pre-commit]
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg?style=for-the-badge)][black]
 
 [pypi_]: https://pypi.org/project/fleaky/
 [status]: https://pypi.org/project/fleaky/
